@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Apple Pay JS</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://js.braintreegateway.com/web/3.22.2/js/client.min.js"></script>
+    <script src="https://js.braintreegateway.com/web/3.22.2/js/apple-pay.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- <script src="assets/apple_pay.js"></script> -->
+    <script src="assets/braintree.js"></script>
+  </head>
+  <body>
+    <h1>Apple Pay JS Test</h1>
+    <p>Apple Pay is <span id="availability">...</span> on your browser.</p>
+    <div class="apple-pay-button apple-pay-button-black" style="display: none;"></div>
+    <h2>ApplePay Merchant Session</h2>
+    <pre id="session"></pre>
+    <h2>ApplePay Payment Token</h2>
+    <pre id="token"></pre>
+    <h2>Braintree Transaction Status</h2>
+    <pre id="result"></pre>
+  </body>
+</html>
